@@ -10,5 +10,5 @@ while k < indice:
   soma = soma + k 
 
 else:
-  print("O resultado da soma é:", soma)
+  print("O resultado final da soma é:", soma)
   
