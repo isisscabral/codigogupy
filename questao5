@@ -1,1 +1,8 @@
+string = input("Digite uma palavra:")
+reverso = []
+tam = len(string)
 
+while tam > 0:
+  reverso += string[tam-1]
+  tam = tam - 1
+print ("A palavra reversa é:", reverso)
